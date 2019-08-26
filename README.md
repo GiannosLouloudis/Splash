@@ -34,3 +34,16 @@ Examples:
 ++ Or the user can run the whole pipeline at once (with the default BlastX parameters):
 
     /<absolute>/<path>/Splash.sh True
+
+
+Input file: 
+  <file>.fasta
+Final output: 
+  Final.fasta 
+Intermediate files:
+  1. <file>_GF.fasta -> Output of getorf (Usually contains multiple ORFs per transcript)
+  2. <file>_LO.fasta -> Longest ORF per transcript
+  3. <file>_CPC2.tbl -> CPC2 output table
+  4. <file>_NC.fasta -> Non-Coding ORFs (As they were characterized by CPC2)
+  5. blast_file_<number>.fasta -> Files of 2000 transcripts (4000 lines) created for parallelazation of the BlastX process () Their number is arbitrary, and depends on the dataset.
+  6. blast_<number>.output -> BlastX results, displayed in a table (Format 6), in the final step they will be concatenated, to create the final output.
