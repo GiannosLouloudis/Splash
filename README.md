@@ -21,14 +21,14 @@ The user can change the parameters in the BlastPrep.py file (which creates the B
 Examples:
 ++ Submit Splash.sh in a sub_script, then manually submit the Blast_sub_script.sh:
 
-/<absolute>/<path>/Splash.sh False
+    /<absolute>/<path>/Splash.sh False
         
-          and finally submit the SplashAB.sh:
+++ and finally submit the SplashAB.sh:
           
-/<absolute>/<path>/SplashAB.sh
+    /<absolute>/<path>/SplashAB.sh
   
   
   
 ++ Or the user can run the whole pipeline at once (with the default BlastX parameters):
 
-/<absolute>/<path>/Splash.sh True
+    /<absolute>/<path>/Splash.sh True
