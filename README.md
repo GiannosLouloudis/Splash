@@ -15,7 +15,8 @@ ATTENTION!!!
 After downloading the full Splash file, please open the main scripts and change the paths of the dependencies, python scripts, and database or you will get errors.
 The database path should change from the BlastPrep.py file so that every time the Blast_submit_file.sh is created, your parameters are correct.
 
-Splash, lets the user choose how the BlastX tool should run, so that he/she can save the maximum amount of time for their available resources.
+In order to save time Splash uses splits the dataset (into files of 2000 transcripts) and uses arrays at for the BlastX proccess.
+Then, lets the user choose how the BlastX tool should run, so that he/she can save the maximum amount of time for their available resources.
 The user can change the parameters in the BlastPrep.py file (which creates the Blast submition file) and submit the pipeline only once (instead of submiting every part [Splash, Blast_sucb_script.sh, SplashAB.py] as a separate entity)by adding True next to the Splash.sh filename during submission.
 
 Examples:
