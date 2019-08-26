@@ -1,3 +1,6 @@
+# The Splash pipeline was created at the Hellenic Center of Marine Research (HMCR), in Crete (August 2019).
+# It's developers were John Louloudis, Tereza Manousaki and Alexandros Tsakogiannis.
+
 # Import libraries.
 import pandas as pd
 import sys
