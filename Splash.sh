@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# The Splash pipeline was created at the Hellenic Center of Marine Research (HMCR), in Crete (August 2019).
+# It's developers were John Louloudis, Tereza Manousaki and Alexandros Tsakogiannis.
+
 
 # List all fasta files in the directory and append their names (no extension) to the assemblies.tmp file.
 ls *.fasta > assemblies.tmp
