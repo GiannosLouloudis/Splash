@@ -1,4 +1,4 @@
-This project is licensed under the terms of the HCMR license. Copyright (c) 2019 John Louloudis, Tereza Manousaki, Alexandros Tsakogiannis.
+This project is licensed under the terms of the HCMR (Hellenic Center of Marine Research) license. Copyright (c) 2019 John Louloudis, Tereza Manousaki, Alexandros Tsakogiannis.
 
 ## Splash
 
