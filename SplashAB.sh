@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# The Splash pipeline was created at the Hellenic Center of Marine Research (HMCR), in Crete (August 2019).
-# It's developers were John Louloudis, Tereza Manousaki and Alexandros Tsakogiannis.
+# This project is licensed under the terms of the HCMR (Hellenic Center of Marine Research) license. 
+# Copyright (c) 2019 John Louloudis, Tereza Manousaki, Alexandros Tsakogiannis.
 # Splash_after_blast.
 
 # Remove the transcripts with a hit in the database.
