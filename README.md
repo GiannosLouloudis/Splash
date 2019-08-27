@@ -1,8 +1,8 @@
-# Splash
+This project is licensed under the terms of the HCMR license. Copyright (c) 2019 John Louloudis, Tereza Manousaki, Alexandros Tsakogiannis.
+
+## Splash
 
 A pipeline to identify Long Non-Coding RNAs in silico.
-Splash was created at the Hellenic Center of Marine Research (HMCR), in Crete (August 2019).
-It's developers were John Louloudis, Tereza Manousaki and Alexandros Tsakogiannis.
 
 Splash can Identify, putative long non-coding RNAs from a pool of transcriptomics data, using ORF size, Coding potential and checks the dataset for hits against a protein database of choice.
 
